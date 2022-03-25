@@ -1,0 +1,75 @@
+[
+    {
+        "id": "1",
+        "name": "Apple Watch",
+        "price": 135,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/top-20-watch-brands-apple-1617146084.jpg?crop=1xw:1xh;center,top&resize=980:*"
+    },
+    {
+        "id": "2",
+        "name": "Omega Watch",
+        "price": 579,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/top-20-watch-brands-omega-1617146132.jpg?crop=1xw:1xh;center,top&resize=980:*"
+     
+    },
+    {
+        "id": "3",
+        "name": "Nautilus",
+        "price": 490,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/top-20-watch-brands-patek-philippe-1617145975.jpg?crop=1xw:1xh;center,top&resize=980:*"
+    },
+    {
+        "id": "4",
+        "name": " Big Pilot's Watch",
+        "price": 540,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/top-20-watch-brands-iwc-1617146217.jpg?crop=1xw:1xh;center,top&resize=980:*"
+    },
+    {
+        "id": "5",
+        "name": " Carrera",
+        "price": 857,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/top-20-watch-brands-tag-heuer-1617146327.jpg?crop=1xw:1xh;center,top&resize=980:*"
+    },
+    {
+        "id": "6",
+        "name": "Black Bay",
+        "price": 339,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/top-20-watch-brands-tudor-1617146487.jpg?crop=1xw:1xh;center,top&resize=980:*"
+    },
+    {
+        "id": "7",
+        "name": "Royal Oak",
+        "price": 889,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/top-20-watch-brands-audemars-piguet-1617146529.jpg?crop=1xw:1xh;center,top&resize=980:*"
+    },
+    {
+        "id": "8",
+        "name": "Khaki Field Mechanical",
+        "price": 390,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/top-20-watch-brands-hamilton-1617146610.jpg?crop=1xw:1xh;center,top&resize=980:*"
+    },
+    {
+        "id": "9",
+        "name": "Lange 1",
+        "price": 693,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/top-20-watch-brands-a-lange-sohne-1617146564.jpg?crop=1xw:1xh;center,top&resize=980:*"
+    },
+    {
+        "id": "10",
+        "name": "Weekender",
+        "price": 60.58,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/top-20-watch-brands-timex-1617146651.jpg?crop=1xw:1xh;center,top&resize=980:*"
+    },
+    {
+        "id": "11",
+        "name": "G-Shock 5600",
+        "price": 140,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/top-20-watch-brands-casio-1617146691.jpg?crop=1xw:1xh;center,top&resize=980:*"
+    },
+    {
+        "id": "12",
+        "name": "Pro-master Diver",
+        "price": 221,
+        "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/top-20-watch-brands-citizen-1617146742.jpg?crop=1xw:1xh;center,top&resize=980:*"
+    }
+]
