@@ -1,6 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Watch from '../Watch/Watch';
+import Cart from '../Cart/Cart';
 import './Products.css';
 
 
@@ -18,7 +19,8 @@ const Products = () => {
     }, [])
 
     const handleAddToCart = (selectedProduct) =>{
-        
+       const newCart = [...cart, selectedProduct];
+       setCart(newCart); 
     }
     return (
         <div className='container'>
@@ -34,7 +36,7 @@ const Products = () => {
 
            <div className='cart-container'>
                <h2>Selected Products</h2>
-              
+                <Cart cart={cart}></Cart>
            </div>
         </div>
     );

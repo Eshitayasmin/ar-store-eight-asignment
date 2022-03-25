@@ -1,0 +1,12 @@
+.cart{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.cart-image{
+    width: 80px;
+}
+.cart-name{
+    font-size: 17px;
+    margin-left: 10px;
+}
