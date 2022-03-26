@@ -28,7 +28,7 @@ const Cart = ({cart, clearCart, randomItem}) => {
              </div>
 
             <div>
-            <button onClick={chooseOne} className='choose-one-btn'>Choose 1 For Me</button>
+            <button onClick={chooseOne} className='choose-one-btn'>Choose One</button>
             </div>
             <div>
             <button onClick={clearCart} className='choose-again-btn'>Choose Again</button>

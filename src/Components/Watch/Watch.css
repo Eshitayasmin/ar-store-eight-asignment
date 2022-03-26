@@ -37,15 +37,15 @@
 
 @media only screen and (max-width: 600px) {
     .image{
-        width: 230px;
+        width: 190px;
     }
     .watch-card{
-        margin: 10px;
-        padding: 5px;
+        margin: 8px;
+        padding: 10px;
        
     }
     .watch-name{
-        font-size: 23px;
+        font-size: 20px;
         
     }
     .watch-price{

@@ -8,7 +8,7 @@
     margin-bottom: 10px;
 }
 .cart-image{
-    width: 70px;
+    width: 60px;
 }
 .cart-name{
     font-size: 17px;
@@ -40,6 +40,13 @@
     border-radius: 10px;
 }
 
+.cart-title{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Lato';
+    color: purple;
+}
+
 
 @media only screen and (max-width: 600px) {
     .choose-one-btn{
@@ -51,13 +58,19 @@
     }
 
     .choose-again-btn{
-        padding: 7px 12px;
+        padding: 5px 8px;
         font-size: 17px;
         border-radius: 8px;
     }
-
+    .cart{
+        margin-bottom: 0px;
+    }
+    .cart-name{
+        font-size: 15px;
+        margin-left: 5px;
+    }
     .cart-image{
-        width: 50px;
+        width: 40px;
     }
   }
 

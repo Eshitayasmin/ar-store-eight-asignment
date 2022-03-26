@@ -39,8 +39,6 @@ const Products = () => {
     }
     return (
         <div className='container'>
-         <div>
-           <h1 className='title'>Welcome To AR Store</h1>
          <div className='watch-container'>
            {
              products.map(product => <Watch 
@@ -50,7 +48,6 @@ const Products = () => {
                        
             }
            </div>
-         </div>
 
            <div className='cart-container'>
                 <Cart 
