@@ -39,7 +39,9 @@ const Products = () => {
     }
     return (
         <div className='container'>
-           <div className='watch-container'>
+         <div>
+           <h1 className='title'>Welcome To AR Store</h1>
+         <div className='watch-container'>
            {
              products.map(product => <Watch 
                 data={product}
@@ -48,9 +50,9 @@ const Products = () => {
                        
             }
            </div>
+         </div>
 
            <div className='cart-container'>
-               <h2 className='cart-title'>Selected Watch</h2>
                 <Cart 
                 cart={cart}
                 randomItem={randomItem}

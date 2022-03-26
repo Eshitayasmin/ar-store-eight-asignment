@@ -2,10 +2,20 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+.title{
+    text-align: center;
+    color: purple;
+}
 .watch-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
+}
+.cart-container{
+    background-color: rgba(240, 128, 128, 0.288);
+    padding: 5px 10px;
+    margin-bottom: 25px;
+    
 }
 .cart-title{
     text-align: center;
@@ -13,3 +23,19 @@
     font-family: 'Lato';
     color: seagreen;
 }
+
+@media only screen and (max-width: 600px) {
+    .container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .watch-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    .cart-container{
+        padding: 5px;
+    }
+  }

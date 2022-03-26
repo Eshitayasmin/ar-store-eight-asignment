@@ -1,0 +1,12 @@
+.answer{
+    border: 2px solid peru;
+    margin: 30px;
+    padding: 15px;
+}
+.answer p{
+    font-size: 17px;
+}
+
+.qna-image{
+    width: 20rem;
+}

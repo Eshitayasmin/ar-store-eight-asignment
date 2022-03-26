@@ -3,7 +3,7 @@
     border-radius: 15px;
     margin: 25px;
     padding: 10px;
-    position: relative;
+   
 }
 .image{
     width: 350px;
@@ -25,10 +25,36 @@
     font-size: 17px;
     background-color: salmon;
     padding: 9px;
-    border-radius: 10px;
+    border-radius: 10px;  
+}
 
-  
+.cart-btn:hover{
+    background-color: orange;
 }
 .cart-icon{
     margin-left: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+    .image{
+        width: 230px;
+    }
+    .watch-card{
+        margin: 10px;
+        padding: 5px;
+       
+    }
+    .watch-name{
+        font-size: 23px;
+        
+    }
+    .watch-price{
+        font-size: 18px;
+    }
+
+    .cart-btn{
+        padding: 5px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+  }

@@ -18,7 +18,8 @@ const Cart = ({cart, clearCart, randomItem}) => {
         }
        
     return (
-        <div>
+        <div className='cart-div'>
+            <h2 className='cart-title'>Selected Watch</h2>
             {
                 cart.map((item) => <Item item={item} key={item.id}></Item>)
             }
