@@ -34,6 +34,7 @@ const Products = () => {
 
     const clearCart = () =>{
       const newCart = [];
+      document.getElementById('choose-one').innerHTML ='';
       setCart(newCart);
     }
     return (
