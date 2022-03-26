@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Watch from '../Watch/Watch';
-import Cart from '../Cart/Cart';
+import { Cart} from '../Cart/Cart';
 import './Products.css';
 
 
@@ -20,7 +20,21 @@ const Products = () => {
 
     const handleAddToCart = (selectedProduct) =>{
        const newCart = [...cart, selectedProduct];
-       setCart(newCart); 
+       setCart(newCart);
+
+    }
+
+  
+   const randomItem = () =>{
+    const item = cart[Math.floor(Math.random()*cart.length)];
+    return item;
+   }
+
+  
+
+    const clearCart = () =>{
+      const newCart = [];
+      setCart(newCart);
     }
     return (
         <div className='container'>
@@ -35,8 +49,12 @@ const Products = () => {
            </div>
 
            <div className='cart-container'>
-               <h2>Selected Products</h2>
-                <Cart cart={cart}></Cart>
+               <h2 className='cart-title'>Selected Watch</h2>
+                <Cart 
+                cart={cart}
+                randomItem={randomItem}
+                clearCart={clearCart}
+                   ></Cart>
            </div>
         </div>
     );

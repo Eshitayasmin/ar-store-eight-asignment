@@ -4,9 +4,35 @@
     margin-bottom: 10px;
 }
 .cart-image{
-    width: 80px;
+    width: 70px;
 }
 .cart-name{
     font-size: 17px;
     margin-left: 10px;
 }
+.choose-cart{
+    display: flex;
+    align-items: center;
+    border: 1px solid palevioletred;
+    background-color: beige;
+    margin-top: 25px;
+}
+.choose-one-btn{
+    border: none;
+    background-color: rgba(32, 85, 85, 0.897);
+    color: white;
+    padding: 12px 18px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.choose-again-btn{
+    border: none;
+    background-color: lightskyblue;
+    color: purple;
+    padding: 10px 18px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+

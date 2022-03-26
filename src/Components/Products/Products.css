@@ -7,3 +7,9 @@
     grid-template-columns: repeat(3, 1fr);
 
 }
+.cart-title{
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Lato';
+    color: seagreen;
+}
