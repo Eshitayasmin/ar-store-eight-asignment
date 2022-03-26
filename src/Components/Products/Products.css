@@ -9,13 +9,14 @@
 .watch-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-top: 25px;
+    margin-top: 15px;
 
 }
 .cart-container{
     background-color: rgba(240, 128, 128, 0.288);
     padding: 5px 10px;
     margin-bottom: 25px;
+    padding-bottom: 10px;
     
 }
 

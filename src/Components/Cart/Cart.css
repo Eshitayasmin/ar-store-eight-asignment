@@ -66,11 +66,14 @@
         margin-bottom: 0px;
     }
     .cart-name{
-        font-size: 15px;
+        font-size: 14px;
         margin-left: 5px;
     }
     .cart-image{
         width: 40px;
+    }
+    .cart-title{
+        font-size: 16px;
     }
   }
 
